@@ -1,0 +1,43 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Catss Hub V1 | bedwars & bloxfruits", "Sentinel")
+
+local Main = Window:NewTab("Bedwars")
+
+local MainSection = Main:NewSection("Bedwars")
+
+MainSection:NewButton("Bedwars Vape V4 Hub", "Basically A op script speed fly kill aura high jump hitbox auto click and shit", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+
+end)
+
+local Tab = Window:NewTab("Bloxfruit")
+
+local Section = Tab:NewSection("Bloxfruits GUI")
+
+Section:NewButton("ZaqueHub", "ButtonInfo", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mei2232/ZaqueHub/main/Zaque%20Hub"))()
+
+end)
+
+local Tab = Window:NewTab("Fly GUI")
+
+local Section = Tab:NewSection("Fly Hack XD")
+
+Section:NewButton("Fly Gui", "basically a fly gui", function()
+
+    loadstring(game:HttpGet('https://pastebin.com/raw/XQJqN1RE'))()
+
+end)
+
+local Tab = Window:NewTab("da hood")
+
+local Section = Tab:NewSection("dh")
+
+Section:NewButton("DH Plvto", "ButtonInfo", function()
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
+
+end)
